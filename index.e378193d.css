@@ -1,0 +1,120 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.card {
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  width: 200px;
+  padding: 32px 16px 16px;
+}
+
+.card__photo {
+  background-image: url("imac.d0e0225a.jpeg");
+  width: 160px;
+  height: 134px;
+  margin: 0 auto 40px;
+  display: block;
+}
+
+.card__tittle {
+  color: #060b35;
+  margin-top: 40px;
+  margin-bottom: auto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__prodact-code {
+  color: #616070;
+  margin-top: 4px;
+  margin-bottom: auto;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card__price {
+  justify-content: space-between;
+  display: flex;
+}
+
+.card__price-text {
+  color: #616070;
+  margin-top: 24px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.card__price-value {
+  color: #060b35;
+  align-items: flex-end;
+  margin-top: 24px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.card__button-buy {
+  color: #fff;
+  background: #00acdc;
+  border-radius: 5px;
+  justify-content: space-around;
+  align-items: center;
+  width: 166px;
+  height: 40px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+.card__button-buy:hover {
+  color: #00acdc;
+  background: #fff;
+  border: 1px solid #00acdc;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: .5px;
+  width: 16px;
+  height: 16px;
+  margin-top: 16px;
+  margin-right: 4px;
+}
+
+.stars__star:nth-last-child(n+2) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+.stars__reviews {
+  color: #060b35;
+  height: 16px;
+  margin-top: 16px;
+  padding-left: 17px;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
